@@ -38,7 +38,12 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+"Jason":[
+    {"cat":"Mr. Kitty"},
+    {"roomates":["Dave", "Miller"]},
+    {"sports": ["Red Sox", "Patriots", "Bruins"]},
+    {"address": ["123 Fake Street", "2 Muchinfo Road"]}
+]
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +51,10 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+"davesFish": [
+  {"name":"Mr.MagicNibbles", "color":"yellow"},
+  {"name":"Bob", "color":"red"}
+]
 ```
 
 ## JSON Methods
@@ -54,7 +62,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+
 ```
 
 ## JSON Comments
